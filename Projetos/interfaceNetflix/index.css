@@ -1,0 +1,154 @@
+body,section,article,main,aside,footer,img,nav,ul,li,a,h1,h2,h3,h4,h5,h6,div{
+    margin:0 ;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #000000;
+    
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+section ul li figure{
+    width: 160px;
+    height: 160px;
+
+}
+
+.logo1{
+    width: 226px;
+    height: 68px;
+    left: 517px;
+    top: 36px;
+}
+
+.titulo{
+    margin: 30px 30px ;
+    font-size: 32px;
+    
+}
+
+
+.container-usuarios{
+    display: flex;
+    list-style: none;
+    min-width: 700px;
+    justify-content: center;
+}
+
+.usuario{
+    margin: 20px;
+    width: 160px;  
+}
+
+.card-usuarios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.perfil{
+    border: transparent;
+    width: 100%;
+    height: auto;
+    border-radius:5px;
+ 
+}
+
+.perfil:hover{ 
+    border: solid;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    border-radius:5px;
+    overflow: hidden;
+
+}
+
+.nome-usuario{
+    display: flex;
+    justify-content: center;
+
+    font-size: 14px;
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+    margin-top: 15px;
+    color: #9C9C9C;
+}
+.nome-usuario:hover{
+    color: #FFFFFF;
+
+}
+
+.adicionar figure{
+    font-family: 'IBM Plex Sans';
+    opacity: 0.5;
+    
+}
+
+.adicionar figure :hover{
+    opacity: 0.5;
+    border: solid color #6F6F70;
+    color: #FFFFFF;
+    border-width: 4px;
+    border-radius:5px; 
+    
+}
+
+
+.gerenciarperfis{
+   display: flex;
+   justify-content: center;
+   flex-direction: center;
+   margin: 40px;
+   font-size: 16px;
+   font-family: 'IBM Plex Sans';
+   
+   
+
+   
+   
+}   
+
+.botao{
+    padding:10px;
+    width: 200px;
+    border:  solid #FFFFFF;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-radius:8px;
+    background-color:  #000000;
+    display: flex;
+    justify-content: center;
+   
+   
+
+}
+
+.botao:hover{ 
+    border: solid;
+    border-width: 2px;
+    border-radius:8px;
+    transform: scale(1.1);
+    background-color: #FFFFFF;
+    color: #000000;
+
+}
+
+
+
+
+
+
